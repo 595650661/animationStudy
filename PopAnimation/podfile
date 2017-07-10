@@ -1,0 +1,3 @@
+target 'PopAnimation' do
+pod 'pop'
+end
