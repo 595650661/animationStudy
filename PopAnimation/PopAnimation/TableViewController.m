@@ -11,6 +11,7 @@
 #import "PropertyNamedController.h"
 #import "DecayAnimationController.h"
 #import "DecayAnimationTwo.h"
+#import "PopCardController.h"
 @interface TableViewController ()
 @property (nonatomic,strong) NSArray *dataList;
 @end
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _dataList = @[@"基础动画",@"PropertyNamed",@"Decay Animation",@"碰壁反弹效果"];
+    _dataList = @[@"基础动画",@"PropertyNamed",@"Decay Animation",@"碰壁反弹效果",@"弹出小卡片效果"];
  
 
 }
@@ -64,6 +65,11 @@
         case 3:
         {
             vc = [[DecayAnimationTwo alloc]init];
+        }
+            break;
+        case 4:
+        {
+            vc = [[PopCardController alloc]init];
         }
             break;
         default:

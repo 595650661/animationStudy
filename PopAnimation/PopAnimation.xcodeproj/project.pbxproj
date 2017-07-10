@@ -21,6 +21,7 @@
 		34C41E271F13640F005095E1 /* DecayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E251F13640F005095E1 /* DecayAnimationController.m */; };
 		34C41E281F13640F005095E1 /* DecayAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C41E261F13640F005095E1 /* DecayAnimationController.xib */; };
 		34C41E371F136DC9005095E1 /* DecayAnimationTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */; };
+		34C41E3B1F1381C5005095E1 /* PopCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E3A1F1381C5005095E1 /* PopCardController.m */; };
 		B82D3FE2F82CA35C85BB63FA /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,8 @@
 		34C41E261F13640F005095E1 /* DecayAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecayAnimationController.xib; sourceTree = "<group>"; };
 		34C41E351F136DC9005095E1 /* DecayAnimationTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationTwo.h; sourceTree = "<group>"; };
 		34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationTwo.m; sourceTree = "<group>"; };
+		34C41E391F1381C5005095E1 /* PopCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCardController.h; sourceTree = "<group>"; };
+		34C41E3A1F1381C5005095E1 /* PopCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCardController.m; sourceTree = "<group>"; };
 		A79A6B0505E5C5B05F4AA557 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -167,6 +170,7 @@
 		34C41E031F130BF8005095E1 /* DetailController */ = {
 			isa = PBXGroup;
 			children = (
+				34C41E381F1381AB005095E1 /* 弹出小卡片效果 */,
 				34C41E231F1363FE005095E1 /* Decay Animation */,
 				34C41E0E1F132E2C005095E1 /* BaseController */,
 				34C41E0A1F132E12005095E1 /* PropertyNamed */,
@@ -203,6 +207,15 @@
 				34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */,
 			);
 			path = "Decay Animation";
+			sourceTree = "<group>";
+		};
+		34C41E381F1381AB005095E1 /* 弹出小卡片效果 */ = {
+			isa = PBXGroup;
+			children = (
+				34C41E391F1381C5005095E1 /* PopCardController.h */,
+				34C41E3A1F1381C5005095E1 /* PopCardController.m */,
+			);
+			path = "弹出小卡片效果";
 			sourceTree = "<group>";
 		};
 		AEA2A1AC9A1FCFBAFE520775 /* Pods */ = {
@@ -411,6 +424,7 @@
 				34C41DD21F130793005095E1 /* AppDelegate.m in Sources */,
 				34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */,
 				34C41E111F132E2C005095E1 /* BaseViewController.m in Sources */,
+				34C41E3B1F1381C5005095E1 /* PopCardController.m in Sources */,
 				34C41E021F13086C005095E1 /* TableViewController.m in Sources */,
 				34C41DCF1F130793005095E1 /* main.m in Sources */,
 				34C41E371F136DC9005095E1 /* DecayAnimationTwo.m in Sources */,
