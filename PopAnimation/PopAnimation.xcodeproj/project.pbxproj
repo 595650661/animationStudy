@@ -15,8 +15,12 @@
 		34C41DE81F130793005095E1 /* PopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41DE71F130793005095E1 /* PopAnimationTests.m */; };
 		34C41DF31F130793005095E1 /* PopAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41DF21F130793005095E1 /* PopAnimationUITests.m */; };
 		34C41E021F13086C005095E1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E011F13086C005095E1 /* TableViewController.m */; };
-		34C41E0D1F132E12005095E1 /* PropertyNamedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E0C1F132E12005095E1 /* PropertyNamedController.m */; };
 		34C41E111F132E2C005095E1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E101F132E2C005095E1 /* BaseViewController.m */; };
+		34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E131F1332F0005095E1 /* PropertyNamedController.m */; };
+		34C41E161F1332F0005095E1 /* PropertyNamedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C41E141F1332F0005095E1 /* PropertyNamedController.xib */; };
+		34C41E271F13640F005095E1 /* DecayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E251F13640F005095E1 /* DecayAnimationController.m */; };
+		34C41E281F13640F005095E1 /* DecayAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C41E261F13640F005095E1 /* DecayAnimationController.xib */; };
+		34C41E371F136DC9005095E1 /* DecayAnimationTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */; };
 		B82D3FE2F82CA35C85BB63FA /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +59,16 @@
 		34C41DF41F130793005095E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C41E001F13086C005095E1 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34C41E011F13086C005095E1 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		34C41E0B1F132E12005095E1 /* PropertyNamedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyNamedController.h; sourceTree = "<group>"; };
-		34C41E0C1F132E12005095E1 /* PropertyNamedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyNamedController.m; sourceTree = "<group>"; };
 		34C41E0F1F132E2C005095E1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		34C41E101F132E2C005095E1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		34C41E121F1332F0005095E1 /* PropertyNamedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyNamedController.h; sourceTree = "<group>"; };
+		34C41E131F1332F0005095E1 /* PropertyNamedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyNamedController.m; sourceTree = "<group>"; };
+		34C41E141F1332F0005095E1 /* PropertyNamedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyNamedController.xib; sourceTree = "<group>"; };
+		34C41E241F13640F005095E1 /* DecayAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationController.h; sourceTree = "<group>"; };
+		34C41E251F13640F005095E1 /* DecayAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationController.m; sourceTree = "<group>"; };
+		34C41E261F13640F005095E1 /* DecayAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecayAnimationController.xib; sourceTree = "<group>"; };
+		34C41E351F136DC9005095E1 /* DecayAnimationTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationTwo.h; sourceTree = "<group>"; };
+		34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationTwo.m; sourceTree = "<group>"; };
 		A79A6B0505E5C5B05F4AA557 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,6 +167,7 @@
 		34C41E031F130BF8005095E1 /* DetailController */ = {
 			isa = PBXGroup;
 			children = (
+				34C41E231F1363FE005095E1 /* Decay Animation */,
 				34C41E0E1F132E2C005095E1 /* BaseController */,
 				34C41E0A1F132E12005095E1 /* PropertyNamed */,
 			);
@@ -166,8 +177,9 @@
 		34C41E0A1F132E12005095E1 /* PropertyNamed */ = {
 			isa = PBXGroup;
 			children = (
-				34C41E0B1F132E12005095E1 /* PropertyNamedController.h */,
-				34C41E0C1F132E12005095E1 /* PropertyNamedController.m */,
+				34C41E121F1332F0005095E1 /* PropertyNamedController.h */,
+				34C41E131F1332F0005095E1 /* PropertyNamedController.m */,
+				34C41E141F1332F0005095E1 /* PropertyNamedController.xib */,
 			);
 			path = PropertyNamed;
 			sourceTree = "<group>";
@@ -179,6 +191,18 @@
 				34C41E101F132E2C005095E1 /* BaseViewController.m */,
 			);
 			path = BaseController;
+			sourceTree = "<group>";
+		};
+		34C41E231F1363FE005095E1 /* Decay Animation */ = {
+			isa = PBXGroup;
+			children = (
+				34C41E241F13640F005095E1 /* DecayAnimationController.h */,
+				34C41E251F13640F005095E1 /* DecayAnimationController.m */,
+				34C41E261F13640F005095E1 /* DecayAnimationController.xib */,
+				34C41E351F136DC9005095E1 /* DecayAnimationTwo.h */,
+				34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */,
+			);
+			path = "Decay Animation";
 			sourceTree = "<group>";
 		};
 		AEA2A1AC9A1FCFBAFE520775 /* Pods */ = {
@@ -309,7 +333,9 @@
 			files = (
 				34C41DDD1F130793005095E1 /* LaunchScreen.storyboard in Resources */,
 				34C41DDA1F130793005095E1 /* Assets.xcassets in Resources */,
+				34C41E161F1332F0005095E1 /* PropertyNamedController.xib in Resources */,
 				34C41DD81F130793005095E1 /* Main.storyboard in Resources */,
+				34C41E281F13640F005095E1 /* DecayAnimationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +409,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C41DD21F130793005095E1 /* AppDelegate.m in Sources */,
+				34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */,
 				34C41E111F132E2C005095E1 /* BaseViewController.m in Sources */,
 				34C41E021F13086C005095E1 /* TableViewController.m in Sources */,
-				34C41E0D1F132E12005095E1 /* PropertyNamedController.m in Sources */,
 				34C41DCF1F130793005095E1 /* main.m in Sources */,
+				34C41E371F136DC9005095E1 /* DecayAnimationTwo.m in Sources */,
+				34C41E271F13640F005095E1 /* DecayAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,9 @@
 
 #import "TableViewController.h"
 #import "BaseViewController.h"
+#import "PropertyNamedController.h"
+#import "DecayAnimationController.h"
+#import "DecayAnimationTwo.h"
 @interface TableViewController ()
 @property (nonatomic,strong) NSArray *dataList;
 @end
@@ -17,9 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _dataList = @[@"基础动画",@"PropertyNamed",@"3",@"4",@"5",@"6"];
-
-    
+    _dataList = @[@"基础动画",@"PropertyNamed",@"Decay Animation",@"碰壁反弹效果"];
+ 
 
 }
 
@@ -50,7 +52,20 @@
             vc = [[BaseViewController alloc]init];
         }
             break;
-            
+        case 1:
+        {
+            vc = [[PropertyNamedController alloc]init];
+        }
+            break;
+        case 2:
+        {
+            vc = [[DecayAnimationController alloc]init];
+        }
+        case 3:
+        {
+            vc = [[DecayAnimationTwo alloc]init];
+        }
+            break;
         default:
             break;
     }

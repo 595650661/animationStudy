@@ -17,6 +17,7 @@
 #define SCREEN_WIDTH self.view.frame.size.width
 @interface BaseViewController ()
 @property (nonatomic,strong) UIView *BaseView;
+ 
 @end
 
 @implementation BaseViewController
@@ -34,6 +35,7 @@
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(usePopBasicAnimation)];
     [view addGestureRecognizer:tap];
+ 
  
 }
 
@@ -81,9 +83,10 @@
     aniSpring.springBounciness = 10.0;
     [_BaseView pop_addAnimation:aniSpring forKey:@"POPSpringAnimation"];
  
-    [self performSelector:@selector(popCenterView) withObject:self afterDelay:1];
+    
     
 }
+
 
 - (void)POPAnimatableProperty{
     
@@ -124,27 +127,6 @@
     
 }
 
-
-- (void)popCenterView{
-    
-    POPSpringAnimation *aniSpring = [POPSpringAnimation animationWithPropertyNamed:kPOPViewCenter];
-    aniSpring.toValue = [NSValue valueWithCGPoint:self.view.center];
-    aniSpring.beginTime = CACurrentMediaTime();
-    aniSpring.springBounciness = 10.0;
-    [_BaseView pop_addAnimation:aniSpring forKey:@"POPSpringAnimation"];
-    
-    
-    [self performSelector:@selector(circle) withObject:self afterDelay:1];
-   
-}
-
-
-- (void)circle{
-    POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerScaleXY];
-    scaleAnimation.toValue = [NSValue valueWithCGSize:CGSizeMake(0.5, 0.5)];
-    scaleAnimation.springBounciness = 10.f;
-    [_BaseView.layer pop_addAnimation:scaleAnimation forKey:@"scaleAnim"];
-}
 
 @end
 
