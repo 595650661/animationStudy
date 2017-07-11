@@ -85,7 +85,7 @@
 - (IBAction)kPOPLayerBounds:(id)sender {
     POPSpringAnimation *basicAnimation = [POPSpringAnimation animation];
     basicAnimation.property = [POPAnimatableProperty propertyWithName: kPOPLayerBounds];
-    basicAnimation.toValue= [NSValue valueWithCGRect:CGRectMake(0, 0, 20, 20)];
+    basicAnimation.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, 20, 20)];
     [_baseView.layer pop_addAnimation:basicAnimation forKey:@"kPOPLayerBounds"];
 }
 ///kPOPLayerScaleXY

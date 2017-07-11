@@ -13,6 +13,8 @@
 #import "DecayAnimationTwo.h"
 #import "PopCardController.h"
 #import "CircularController.h"
+#import "ProgressViewController.h"
+#import "FoldingViewController.h"
 @interface TableViewController ()
 @property (nonatomic,strong) NSArray *dataList;
 @end
@@ -22,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _dataList = @[@"基础动画",@"PropertyNamed",@"Decay Animation",@"碰壁反弹效果",@"弹出小卡片效果",@"画圆形"];
+    _dataList = @[@"基础动画",@"PropertyNamed",@"Decay Animation",@"碰壁反弹效果",@"弹出小卡片效果",@"画圆形",@"进度条" ,@"图片折叠"];
  
 
 }
@@ -77,6 +79,16 @@
             case 5:
         {
             vc = [[CircularController alloc]init];
+        }
+            break;
+            case 6:
+        {
+            vc = [[ProgressViewController alloc]init];
+        }
+            break;
+            case 7:
+        {
+            vc = [[FoldingViewController alloc]init];
         }
             break;
         default:

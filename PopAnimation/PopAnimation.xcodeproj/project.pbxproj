@@ -24,6 +24,10 @@
 		34E3C01C1F145D0A0009A33C /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C01B1F145D0A0009A33C /* CircularView.m */; };
 		34E3C0221F14600E0009A33C /* CircularController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0201F14600E0009A33C /* CircularController.m */; };
 		34E3C0231F14600E0009A33C /* CircularController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E3C0211F14600E0009A33C /* CircularController.xib */; };
+		34E3C0271F14616B0009A33C /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0261F14616B0009A33C /* ProgressViewController.m */; };
+		34E3C0331F147E1B0009A33C /* FoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0321F147E1B0009A33C /* FoldingViewController.m */; };
+		34E3C0361F147E2D0009A33C /* FoldingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0351F147E2D0009A33C /* FoldingView.m */; };
+		34E3C0391F147E550009A33C /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0381F147E550009A33C /* UIImage+Blur.m */; };
 		B82D3FE2F82CA35C85BB63FA /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +82,14 @@
 		34E3C01F1F14600E0009A33C /* CircularController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularController.h; sourceTree = "<group>"; };
 		34E3C0201F14600E0009A33C /* CircularController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularController.m; sourceTree = "<group>"; };
 		34E3C0211F14600E0009A33C /* CircularController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircularController.xib; sourceTree = "<group>"; };
+		34E3C0251F14616B0009A33C /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		34E3C0261F14616B0009A33C /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		34E3C0311F147E1B0009A33C /* FoldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingViewController.h; sourceTree = "<group>"; };
+		34E3C0321F147E1B0009A33C /* FoldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingViewController.m; sourceTree = "<group>"; };
+		34E3C0341F147E2D0009A33C /* FoldingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingView.h; sourceTree = "<group>"; };
+		34E3C0351F147E2D0009A33C /* FoldingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingView.m; sourceTree = "<group>"; };
+		34E3C0371F147E550009A33C /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		34E3C0381F147E550009A33C /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
 		A79A6B0505E5C5B05F4AA557 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -176,6 +188,8 @@
 		34C41E031F130BF8005095E1 /* DetailController */ = {
 			isa = PBXGroup;
 			children = (
+				34E3C0301F147B500009A33C /* 图像折叠 */,
+				34E3C0241F1461410009A33C /* 进度条 */,
 				34E3C00F1F14544D0009A33C /* 画圆形 */,
 				34C41E381F1381AB005095E1 /* 弹出小卡片效果 */,
 				34C41E231F1363FE005095E1 /* Decay Animation */,
@@ -234,6 +248,28 @@
 				34E3C01B1F145D0A0009A33C /* CircularView.m */,
 			);
 			path = "画圆形";
+			sourceTree = "<group>";
+		};
+		34E3C0241F1461410009A33C /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				34E3C0251F14616B0009A33C /* ProgressViewController.h */,
+				34E3C0261F14616B0009A33C /* ProgressViewController.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+		34E3C0301F147B500009A33C /* 图像折叠 */ = {
+			isa = PBXGroup;
+			children = (
+				34E3C0311F147E1B0009A33C /* FoldingViewController.h */,
+				34E3C0321F147E1B0009A33C /* FoldingViewController.m */,
+				34E3C0341F147E2D0009A33C /* FoldingView.h */,
+				34E3C0351F147E2D0009A33C /* FoldingView.m */,
+				34E3C0371F147E550009A33C /* UIImage+Blur.h */,
+				34E3C0381F147E550009A33C /* UIImage+Blur.m */,
+			);
+			path = "图像折叠";
 			sourceTree = "<group>";
 		};
 		AEA2A1AC9A1FCFBAFE520775 /* Pods */ = {
@@ -439,11 +475,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E3C0331F147E1B0009A33C /* FoldingViewController.m in Sources */,
+				34E3C0361F147E2D0009A33C /* FoldingView.m in Sources */,
 				34C41DD21F130793005095E1 /* AppDelegate.m in Sources */,
 				34E3C01C1F145D0A0009A33C /* CircularView.m in Sources */,
 				34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */,
+				34E3C0271F14616B0009A33C /* ProgressViewController.m in Sources */,
 				34E3C0221F14600E0009A33C /* CircularController.m in Sources */,
 				34C41E111F132E2C005095E1 /* BaseViewController.m in Sources */,
+				34E3C0391F147E550009A33C /* UIImage+Blur.m in Sources */,
 				34C41E3B1F1381C5005095E1 /* PopCardController.m in Sources */,
 				34C41E021F13086C005095E1 /* TableViewController.m in Sources */,
 				34C41DCF1F130793005095E1 /* main.m in Sources */,
