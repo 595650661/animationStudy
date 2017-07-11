@@ -28,14 +28,15 @@
     self.title = @"基础动画";
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 100, 100, 100)];
-    view.backgroundColor = [UIColor redColor];
-    [self.view addSubview:view];
-    _BaseView = view;
-    
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(usePopBasicAnimation)];
-    [view addGestureRecognizer:tap];
+//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 100, 100, 100)];
+//    view.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:view];
+//    _BaseView = view;
+//    
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(usePopBasicAnimation)];
+//    [view addGestureRecognizer:tap];
  
+    [self POPAnimatableProperty];
  
 }
 

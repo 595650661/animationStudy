@@ -1,10 +1,11 @@
 //
-//  FoldingViewController.h
-//  Popping
+//  PropertyNamedController.h
+//  PopAnimation
 //
-//  Created by André Schneider on 20.06.14.
-//  Copyright (c) 2014 André Schneider. All rights reserved.
+//  Created by jiangjunhui on 2017/7/10.
+//  Copyright © 2017年 jiangjunhui. All rights reserved.
 //
+
 
 #import <UIKit/UIKit.h>
 
