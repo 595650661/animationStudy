@@ -19,9 +19,11 @@
 		34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E131F1332F0005095E1 /* PropertyNamedController.m */; };
 		34C41E161F1332F0005095E1 /* PropertyNamedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C41E141F1332F0005095E1 /* PropertyNamedController.xib */; };
 		34C41E271F13640F005095E1 /* DecayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E251F13640F005095E1 /* DecayAnimationController.m */; };
-		34C41E281F13640F005095E1 /* DecayAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C41E261F13640F005095E1 /* DecayAnimationController.xib */; };
 		34C41E371F136DC9005095E1 /* DecayAnimationTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */; };
 		34C41E3B1F1381C5005095E1 /* PopCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C41E3A1F1381C5005095E1 /* PopCardController.m */; };
+		34E3C01C1F145D0A0009A33C /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C01B1F145D0A0009A33C /* CircularView.m */; };
+		34E3C0221F14600E0009A33C /* CircularController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E3C0201F14600E0009A33C /* CircularController.m */; };
+		34E3C0231F14600E0009A33C /* CircularController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E3C0211F14600E0009A33C /* CircularController.xib */; };
 		B82D3FE2F82CA35C85BB63FA /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */; };
 /* End PBXBuildFile section */
 
@@ -67,11 +69,15 @@
 		34C41E141F1332F0005095E1 /* PropertyNamedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyNamedController.xib; sourceTree = "<group>"; };
 		34C41E241F13640F005095E1 /* DecayAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationController.h; sourceTree = "<group>"; };
 		34C41E251F13640F005095E1 /* DecayAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationController.m; sourceTree = "<group>"; };
-		34C41E261F13640F005095E1 /* DecayAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DecayAnimationController.xib; sourceTree = "<group>"; };
 		34C41E351F136DC9005095E1 /* DecayAnimationTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationTwo.h; sourceTree = "<group>"; };
 		34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationTwo.m; sourceTree = "<group>"; };
 		34C41E391F1381C5005095E1 /* PopCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCardController.h; sourceTree = "<group>"; };
 		34C41E3A1F1381C5005095E1 /* PopCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCardController.m; sourceTree = "<group>"; };
+		34E3C01A1F145D0A0009A33C /* CircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularView.h; sourceTree = "<group>"; };
+		34E3C01B1F145D0A0009A33C /* CircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularView.m; sourceTree = "<group>"; };
+		34E3C01F1F14600E0009A33C /* CircularController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularController.h; sourceTree = "<group>"; };
+		34E3C0201F14600E0009A33C /* CircularController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularController.m; sourceTree = "<group>"; };
+		34E3C0211F14600E0009A33C /* CircularController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircularController.xib; sourceTree = "<group>"; };
 		A79A6B0505E5C5B05F4AA557 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		EB2E598D8887A850BF7620C2 /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -170,6 +176,7 @@
 		34C41E031F130BF8005095E1 /* DetailController */ = {
 			isa = PBXGroup;
 			children = (
+				34E3C00F1F14544D0009A33C /* 画圆形 */,
 				34C41E381F1381AB005095E1 /* 弹出小卡片效果 */,
 				34C41E231F1363FE005095E1 /* Decay Animation */,
 				34C41E0E1F132E2C005095E1 /* BaseController */,
@@ -202,7 +209,6 @@
 			children = (
 				34C41E241F13640F005095E1 /* DecayAnimationController.h */,
 				34C41E251F13640F005095E1 /* DecayAnimationController.m */,
-				34C41E261F13640F005095E1 /* DecayAnimationController.xib */,
 				34C41E351F136DC9005095E1 /* DecayAnimationTwo.h */,
 				34C41E361F136DC9005095E1 /* DecayAnimationTwo.m */,
 			);
@@ -216,6 +222,18 @@
 				34C41E3A1F1381C5005095E1 /* PopCardController.m */,
 			);
 			path = "弹出小卡片效果";
+			sourceTree = "<group>";
+		};
+		34E3C00F1F14544D0009A33C /* 画圆形 */ = {
+			isa = PBXGroup;
+			children = (
+				34E3C01F1F14600E0009A33C /* CircularController.h */,
+				34E3C0201F14600E0009A33C /* CircularController.m */,
+				34E3C0211F14600E0009A33C /* CircularController.xib */,
+				34E3C01A1F145D0A0009A33C /* CircularView.h */,
+				34E3C01B1F145D0A0009A33C /* CircularView.m */,
+			);
+			path = "画圆形";
 			sourceTree = "<group>";
 		};
 		AEA2A1AC9A1FCFBAFE520775 /* Pods */ = {
@@ -347,8 +365,8 @@
 				34C41DDD1F130793005095E1 /* LaunchScreen.storyboard in Resources */,
 				34C41DDA1F130793005095E1 /* Assets.xcassets in Resources */,
 				34C41E161F1332F0005095E1 /* PropertyNamedController.xib in Resources */,
+				34E3C0231F14600E0009A33C /* CircularController.xib in Resources */,
 				34C41DD81F130793005095E1 /* Main.storyboard in Resources */,
-				34C41E281F13640F005095E1 /* DecayAnimationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +440,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C41DD21F130793005095E1 /* AppDelegate.m in Sources */,
+				34E3C01C1F145D0A0009A33C /* CircularView.m in Sources */,
 				34C41E151F1332F0005095E1 /* PropertyNamedController.m in Sources */,
+				34E3C0221F14600E0009A33C /* CircularController.m in Sources */,
 				34C41E111F132E2C005095E1 /* BaseViewController.m in Sources */,
 				34C41E3B1F1381C5005095E1 /* PopCardController.m in Sources */,
 				34C41E021F13086C005095E1 /* TableViewController.m in Sources */,

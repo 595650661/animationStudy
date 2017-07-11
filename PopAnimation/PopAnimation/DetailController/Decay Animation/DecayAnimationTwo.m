@@ -27,19 +27,13 @@
     _baseView.backgroundColor = [UIColor redColor];
     [self.view addSubview:_baseView];
     
-    //点击手势
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(TabGuesture)];
-    [_baseView addGestureRecognizer:tap];
     
     //拖拽手势
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(PanGesture:)];
     [_baseView addGestureRecognizer:pan];
  
 }
-//点击手势,使用点击手势的时候，让动画停止
-- (void)TabGuesture{
-    [_baseView.layer pop_removeAllAnimations];
-}
+
 
 //拖拽手势
 - (void)PanGesture:(UIPanGestureRecognizer*)pan{

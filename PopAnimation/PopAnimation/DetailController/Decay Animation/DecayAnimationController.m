@@ -38,14 +38,14 @@
 //创建一个POPDecayAnimation动画 实现X轴运动 减慢速度的效果 通过速率来计算运行的距离 没有toValue属性
 - (void)kPOPLayerPositionX{
     
-    POPDecayAnimation *decayAnimation = [POPDecayAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    POPDecayAnimation *decayAnimation = [POPDecayAnimation animationWithPropertyNamed:kPOPLayerPositionY];
     /*
      deceleration （负加速度） 是一个你会很少用到的值，默认是就是我们地球的 0.998，如果你开发给火星人用，那么这个值你使用 0.376 会更合适。
      参数 velocity（速率)
       开始按照速率 100点／s 做减速运动
      */
     
-    decayAnimation.velocity = @(100.0);
+    decayAnimation.velocity = @(400.0);
     
     decayAnimation.beginTime = CACurrentMediaTime();
     [decayAnimation setCompletionBlock:^(POPAnimation *prop, BOOL fint) {
