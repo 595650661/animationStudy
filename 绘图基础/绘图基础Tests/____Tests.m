@@ -1,6 +1,6 @@
 //
-//  BezierPath_______Tests.m
-//  BezierPath贝塞尔曲线学习Tests
+//  ____Tests.m
+//  绘图基础Tests
 //
 //  Created by jiangjunhui on 2017/7/12.
 //  Copyright © 2017年 jiangjunhui. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface BezierPath_______Tests : XCTestCase
+@interface ____Tests : XCTestCase
 
 @end
 
-@implementation BezierPath_______Tests
+@implementation ____Tests
 
 - (void)setUp {
     [super setUp];

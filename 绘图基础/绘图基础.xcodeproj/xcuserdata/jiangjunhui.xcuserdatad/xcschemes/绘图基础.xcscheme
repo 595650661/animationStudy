@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34B91D6B1F15C942009A5F2D"
-               BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.app"
-               BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;"
-               ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+               BlueprintIdentifier = "34B91DAD1F15CFB1009A5F2D"
+               BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;.app"
+               BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;"
+               ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34B91D841F15C942009A5F2D"
-               BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;Tests.xctest"
-               BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;Tests"
-               ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+               BlueprintIdentifier = "34B91DC61F15CFB1009A5F2D"
+               BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;Tests.xctest"
+               BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;Tests"
+               ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34B91D8F1F15C942009A5F2D"
-               BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;UITests.xctest"
-               BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;UITests"
-               ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+               BlueprintIdentifier = "34B91DD11F15CFB1009A5F2D"
+               BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;UITests.xctest"
+               BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;UITests"
+               ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34B91D6B1F15C942009A5F2D"
-            BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.app"
-            BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;"
-            ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+            BlueprintIdentifier = "34B91DAD1F15CFB1009A5F2D"
+            BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;.app"
+            BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;"
+            ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34B91D6B1F15C942009A5F2D"
-            BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.app"
-            BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;"
-            ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+            BlueprintIdentifier = "34B91DAD1F15CFB1009A5F2D"
+            BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;.app"
+            BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;"
+            ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34B91D6B1F15C942009A5F2D"
-            BuildableName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.app"
-            BlueprintName = "BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;"
-            ReferencedContainer = "container:BezierPath&#x8d1d;&#x585e;&#x5c14;&#x66f2;&#x7ebf;&#x5b66;&#x4e60;.xcodeproj">
+            BlueprintIdentifier = "34B91DAD1F15CFB1009A5F2D"
+            BuildableName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;.app"
+            BlueprintName = "&#x7ed8;&#x56fe;&#x57fa;&#x7840;"
+            ReferencedContainer = "container:&#x7ed8;&#x56fe;&#x57fa;&#x7840;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

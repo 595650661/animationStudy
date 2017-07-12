@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BezierPath贝塞尔曲线学习.xcscheme</key>
+		<key>绘图基础.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>34B91D6B1F15C942009A5F2D</key>
+		<key>34B91DAD1F15CFB1009A5F2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34B91D841F15C942009A5F2D</key>
+		<key>34B91DC61F15CFB1009A5F2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34B91D8F1F15C942009A5F2D</key>
+		<key>34B91DD11F15CFB1009A5F2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
