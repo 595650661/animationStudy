@@ -10,6 +10,7 @@
 #import "LineView.h"
 #import "TriangleView.h"
 #import "RectView.h"
+#import "CircularView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -28,6 +29,8 @@
         drawView = [[TriangleView alloc]init];
     }else if ([self.title isEqualToString:@"画矩形"]){
         drawView = [[RectView alloc]init];
+    }else if ([self.title isEqualToString:@"画圆"]){
+        drawView = [[CircularView alloc]init];
     }
     
     

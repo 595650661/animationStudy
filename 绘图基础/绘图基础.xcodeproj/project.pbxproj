@@ -20,6 +20,7 @@
 		34B91DF81F1608D1009A5F2D /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF71F1608D1009A5F2D /* LineView.m */; };
 		34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFA1F1616C8009A5F2D /* TriangleView.m */; };
 		34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFD1F161B9B009A5F2D /* RectView.m */; };
+		34B91E011F161F57009A5F2D /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91E001F161F57009A5F2D /* CircularView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		34B91DFA1F1616C8009A5F2D /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 		34B91DFC1F161B9B009A5F2D /* RectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
 		34B91DFD1F161B9B009A5F2D /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
+		34B91DFF1F161F57009A5F2D /* CircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularView.h; sourceTree = "<group>"; };
+		34B91E001F161F57009A5F2D /* CircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				34B91DFA1F1616C8009A5F2D /* TriangleView.m */,
 				34B91DFC1F161B9B009A5F2D /* RectView.h */,
 				34B91DFD1F161B9B009A5F2D /* RectView.m */,
+				34B91DFF1F161F57009A5F2D /* CircularView.h */,
+				34B91E001F161F57009A5F2D /* CircularView.m */,
 			);
 			path = "CoreGraphics(Quartz2d绘图)";
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B91E011F161F57009A5F2D /* CircularView.m in Sources */,
 				34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */,
 				34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */,
 				34B91DB61F15CFB1009A5F2D /* AppDelegate.m in Sources */,
