@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		34B91DB31F15CFB1009A5F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DB21F15CFB1009A5F2D /* main.m */; };
 		34B91DB61F15CFB1009A5F2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DB51F15CFB1009A5F2D /* AppDelegate.m */; };
-		34B91DB91F15CFB1009A5F2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DB81F15CFB1009A5F2D /* ViewController.m */; };
 		34B91DBC1F15CFB1009A5F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B91DBA1F15CFB1009A5F2D /* Main.storyboard */; };
 		34B91DBE1F15CFB1009A5F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B91DBD1F15CFB1009A5F2D /* Assets.xcassets */; };
 		34B91DC11F15CFB1009A5F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B91DBF1F15CFB1009A5F2D /* LaunchScreen.storyboard */; };
 		34B91DCC1F15CFB1009A5F2D /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DCB1F15CFB1009A5F2D /* ____Tests.m */; };
 		34B91DD71F15CFB1009A5F2D /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DD61F15CFB1009A5F2D /* ____UITests.m */; };
+		34B91DE61F15D0EE009A5F2D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DE51F15D0EE009A5F2D /* TableViewController.m */; };
+		34B91DF21F16080A009A5F2D /* BesizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF11F16080A009A5F2D /* BesizerViewController.m */; };
+		34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF41F1608A4009A5F2D /* Quartz2dViewController.m */; };
+		34B91DF81F1608D1009A5F2D /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF71F1608D1009A5F2D /* LineView.m */; };
+		34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFA1F1616C8009A5F2D /* TriangleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		34B91DB21F15CFB1009A5F2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34B91DB41F15CFB1009A5F2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		34B91DB51F15CFB1009A5F2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34B91DB71F15CFB1009A5F2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34B91DB81F15CFB1009A5F2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34B91DBB1F15CFB1009A5F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34B91DBD1F15CFB1009A5F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34B91DC01F15CFB1009A5F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,17 @@
 		34B91DD21F15CFB1009A5F2D /* 绘图基础UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "绘图基础UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B91DD61F15CFB1009A5F2D /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		34B91DD81F15CFB1009A5F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B91DE41F15D0EE009A5F2D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		34B91DE51F15D0EE009A5F2D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		34B91DE91F160005009A5F2D /* Quartz2dRead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz2dRead.h; sourceTree = "<group>"; };
+		34B91DF01F16080A009A5F2D /* BesizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BesizerViewController.h; sourceTree = "<group>"; };
+		34B91DF11F16080A009A5F2D /* BesizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BesizerViewController.m; sourceTree = "<group>"; };
+		34B91DF31F1608A4009A5F2D /* Quartz2dViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quartz2dViewController.h; sourceTree = "<group>"; };
+		34B91DF41F1608A4009A5F2D /* Quartz2dViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quartz2dViewController.m; sourceTree = "<group>"; };
+		34B91DF61F1608D1009A5F2D /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		34B91DF71F1608D1009A5F2D /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		34B91DF91F1616C8009A5F2D /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		34B91DFA1F1616C8009A5F2D /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +116,10 @@
 			children = (
 				34B91DB41F15CFB1009A5F2D /* AppDelegate.h */,
 				34B91DB51F15CFB1009A5F2D /* AppDelegate.m */,
-				34B91DB71F15CFB1009A5F2D /* ViewController.h */,
-				34B91DB81F15CFB1009A5F2D /* ViewController.m */,
+				34B91DE41F15D0EE009A5F2D /* TableViewController.h */,
+				34B91DE51F15D0EE009A5F2D /* TableViewController.m */,
+				34B91DE81F15F69E009A5F2D /* CoreGraphics(Quartz2d绘图) */,
+				34B91DE71F15D263009A5F2D /* 贝塞尔曲线学习 */,
 				34B91DBA1F15CFB1009A5F2D /* Main.storyboard */,
 				34B91DBD1F15CFB1009A5F2D /* Assets.xcassets */,
 				34B91DBF1F15CFB1009A5F2D /* LaunchScreen.storyboard */,
@@ -138,6 +153,29 @@
 				34B91DD81F15CFB1009A5F2D /* Info.plist */,
 			);
 			path = "绘图基础UITests";
+			sourceTree = "<group>";
+		};
+		34B91DE71F15D263009A5F2D /* 贝塞尔曲线学习 */ = {
+			isa = PBXGroup;
+			children = (
+				34B91DF01F16080A009A5F2D /* BesizerViewController.h */,
+				34B91DF11F16080A009A5F2D /* BesizerViewController.m */,
+			);
+			path = "贝塞尔曲线学习";
+			sourceTree = "<group>";
+		};
+		34B91DE81F15F69E009A5F2D /* CoreGraphics(Quartz2d绘图) */ = {
+			isa = PBXGroup;
+			children = (
+				34B91DE91F160005009A5F2D /* Quartz2dRead.h */,
+				34B91DF31F1608A4009A5F2D /* Quartz2dViewController.h */,
+				34B91DF41F1608A4009A5F2D /* Quartz2dViewController.m */,
+				34B91DF61F1608D1009A5F2D /* LineView.h */,
+				34B91DF71F1608D1009A5F2D /* LineView.m */,
+				34B91DF91F1616C8009A5F2D /* TriangleView.h */,
+				34B91DFA1F1616C8009A5F2D /* TriangleView.m */,
+			);
+			path = "CoreGraphics(Quartz2d绘图)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B91DB91F15CFB1009A5F2D /* ViewController.m in Sources */,
+				34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */,
+				34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */,
 				34B91DB61F15CFB1009A5F2D /* AppDelegate.m in Sources */,
+				34B91DF81F1608D1009A5F2D /* LineView.m in Sources */,
+				34B91DE61F15D0EE009A5F2D /* TableViewController.m in Sources */,
+				34B91DF21F16080A009A5F2D /* BesizerViewController.m in Sources */,
 				34B91DB31F15CFB1009A5F2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

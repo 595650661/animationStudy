@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  绘图基础
 //
 //  Created by jiangjunhui on 2017/7/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-
