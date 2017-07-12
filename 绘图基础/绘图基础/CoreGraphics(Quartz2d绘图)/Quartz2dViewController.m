@@ -9,6 +9,7 @@
 #import "Quartz2dViewController.h"
 #import "LineView.h"
 #import "TriangleView.h"
+#import "RectView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -25,6 +26,8 @@
         drawView = (LineView *)[[LineView alloc]init];
     }else if ([self.title isEqualToString:@"画三角形"]){
         drawView = [[TriangleView alloc]init];
+    }else if ([self.title isEqualToString:@"画矩形"]){
+        drawView = [[RectView alloc]init];
     }
     
     

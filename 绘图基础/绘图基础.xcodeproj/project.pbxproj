@@ -19,6 +19,7 @@
 		34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF41F1608A4009A5F2D /* Quartz2dViewController.m */; };
 		34B91DF81F1608D1009A5F2D /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DF71F1608D1009A5F2D /* LineView.m */; };
 		34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFA1F1616C8009A5F2D /* TriangleView.m */; };
+		34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFD1F161B9B009A5F2D /* RectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		34B91DF71F1608D1009A5F2D /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		34B91DF91F1616C8009A5F2D /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
 		34B91DFA1F1616C8009A5F2D /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		34B91DFC1F161B9B009A5F2D /* RectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectView.h; sourceTree = "<group>"; };
+		34B91DFD1F161B9B009A5F2D /* RectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				34B91DF71F1608D1009A5F2D /* LineView.m */,
 				34B91DF91F1616C8009A5F2D /* TriangleView.h */,
 				34B91DFA1F1616C8009A5F2D /* TriangleView.m */,
+				34B91DFC1F161B9B009A5F2D /* RectView.h */,
+				34B91DFD1F161B9B009A5F2D /* RectView.m */,
 			);
 			path = "CoreGraphics(Quartz2d绘图)";
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				34B91DF81F1608D1009A5F2D /* LineView.m in Sources */,
 				34B91DE61F15D0EE009A5F2D /* TableViewController.m in Sources */,
 				34B91DF21F16080A009A5F2D /* BesizerViewController.m in Sources */,
+				34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */,
 				34B91DB31F15CFB1009A5F2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
