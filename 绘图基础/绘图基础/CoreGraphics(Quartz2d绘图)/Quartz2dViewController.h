@@ -10,6 +10,6 @@
 
 @interface Quartz2dViewController : UIViewController
 
- 
+- (void)createDrawView;
 
 @end

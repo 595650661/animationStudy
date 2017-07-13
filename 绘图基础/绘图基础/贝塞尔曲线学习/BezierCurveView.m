@@ -10,12 +10,36 @@
 
 @implementation BezierCurveView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+    
+    [self drawCircle];
 }
-*/
+
+///画圆
+- (void)drawCircle{
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(100, 100, 50, 50)];
+    //  椭圆
+    //    path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(10, 10, 200, 100)];
+    CGContextRef contextRef = UIGraphicsGetCurrentContext();
+    CGContextAddPath(contextRef, path.CGPath);
+    
+    CGContextStrokePath(contextRef);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end

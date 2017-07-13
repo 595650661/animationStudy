@@ -20,11 +20,18 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
+
+ 
+    
+}
+
+- (void)createDrawView{
+    
     UIView *drawView;
     
     if ([self.title isEqualToString:@"画多边形（view）"]) {
         drawView = [[BesizerPolygonView alloc]init];
-    }else if ([self.title isEqualToString:@"画曲线（view）"]){
+    }else if ([self.title isEqualToString:@"画曲线"]){
         drawView = [[BezierCurveView alloc]init];
     }
     
@@ -35,13 +42,8 @@
     [self.view addSubview:drawView];
     
     [drawView setNeedsDisplay];
-    
-
  
-    
 }
-
-
 @end
 
 

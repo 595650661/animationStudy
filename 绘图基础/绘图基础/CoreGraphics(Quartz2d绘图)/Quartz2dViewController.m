@@ -28,9 +28,19 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
+   
+    
+    
+}
+
+
+
+
+- (void)createDrawView{
     UIView *drawView;
+    
     if ([self.title isEqualToString:@"画线段"]) {
-        drawView = (LineView *)[[LineView alloc]init];
+        drawView = [[LineView alloc]init];
     }else if ([self.title isEqualToString:@"画三角形"]){
         drawView = [[TriangleView alloc]init];
     }else if ([self.title isEqualToString:@"画矩形"]){
@@ -50,21 +60,12 @@
     }else if ([self.title isEqualToString:@"变换运用"]){
         drawView = [[DFLTransformationView alloc]init];
     }
-
-    
     
     drawView.frame = self.view.bounds;
     drawView.backgroundColor = [UIColor whiteColor];
     [drawView setNeedsDisplay];
     [self.view addSubview:drawView];
-    
-    
 }
-
-
-
-
-
 
 
 

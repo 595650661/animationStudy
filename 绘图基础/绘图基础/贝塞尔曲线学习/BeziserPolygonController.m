@@ -17,12 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    [self drawPolygon];
+    self.view.backgroundColor = [UIColor whiteColor];
+   
 }
-
-//画一个多边形
-- (void)drawPolygon{
+- (void)createDrawView{
     
     UIBezierPath *path = [UIBezierPath bezierPath];
     
@@ -33,7 +31,7 @@
     [path addLineToPoint:CGPointMake(160, 140)];
     [path closePath];
     
-
+    
     CAShapeLayer *layer = [CAShapeLayer layer];
     //设置边框
     layer.strokeColor = [UIColor redColor].CGColor;
@@ -44,6 +42,7 @@
     layer.path = path.CGPath;
     
     [self.view.layer addSublayer:layer];
+
 }
 
 

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface BeziserPolygonController : UIViewController
-
+- (void)createDrawView;
 @end
