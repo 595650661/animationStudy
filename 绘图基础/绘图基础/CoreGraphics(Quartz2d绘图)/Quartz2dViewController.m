@@ -11,6 +11,7 @@
 #import "TriangleView.h"
 #import "RectView.h"
 #import "CircularView.h"
+#import "FanView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -31,6 +32,8 @@
         drawView = [[RectView alloc]init];
     }else if ([self.title isEqualToString:@"画圆"]){
         drawView = [[CircularView alloc]init];
+    }else if ([self.title isEqualToString:@"画扇形"]){
+        drawView = [[FanView alloc]init];
     }
     
     

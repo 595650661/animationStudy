@@ -42,7 +42,7 @@ CGContextStrokeRectWithWidth
 [10]一些直线
 CGContextStrokeLineSegments
 
-[11]画曲线 前俩店为中心 中间俩店为起始弧度 最后一数据为0则顺时针画 1则逆时针
+[11]画曲线
 CGContextAddArc
 
 [12]设置阴影
