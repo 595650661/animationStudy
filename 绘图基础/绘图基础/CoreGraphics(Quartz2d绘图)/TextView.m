@@ -19,8 +19,8 @@ static NSString *text = @"夏婉安 乌云一层一层的遮住了光 坚强一�
                            NSForegroundColorAttributeName : [UIColor redColor]
                           };
     // 两种的区别drawInRect会自动换行，drawAtPoint:CGPointZero不会自动换行
-//    [text drawInRect:CGRectMake(20, 100, self.bounds.size.width - 40, 100) withAttributes:dic];
-    [text drawAtPoint:CGPointMake(20, 200) withAttributes:dic];
+    [text drawInRect:CGRectMake(20, 100, self.bounds.size.width - 40, 100) withAttributes:dic];
+//    [text drawAtPoint:CGPointMake(20, 200) withAttributes:dic];
 }
  
 

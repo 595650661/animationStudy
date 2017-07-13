@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
   
-    NSArray *quartzList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线",@"画特效",@"绘制文字",@"绘制图片",@"切割图片",@"变换运用",@"pdf"];
+    NSArray *quartzList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线",@"画特效",@"绘制文字",@"绘制图片",@"变换运用",@"pdf"];
     NSArray *besizerList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线"];
     _dataList = @[quartzList,besizerList];
 }

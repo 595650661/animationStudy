@@ -15,6 +15,7 @@
 #import "CurveView.h"
 #import "EffectView.h"
 #import "TextView.h"
+#import "QuartzImageView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -43,6 +44,8 @@
         drawView = [[EffectView alloc]init];
     }else if ([self.title isEqualToString:@"绘制文字"]){
         drawView = [[TextView alloc]init];
+    }else if ([self.title isEqualToString:@"绘制图片"]){
+        drawView = [[QuartzImageView alloc]init];
     }
     
     
