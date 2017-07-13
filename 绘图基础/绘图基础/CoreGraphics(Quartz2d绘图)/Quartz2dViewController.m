@@ -14,6 +14,7 @@
 #import "FanView.h"
 #import "CurveView.h"
 #import "EffectView.h"
+#import "TextView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -40,6 +41,8 @@
         drawView = [[CurveView alloc]init];
     }else if ([self.title isEqualToString:@"画特效"]){
         drawView = [[EffectView alloc]init];
+    }else if ([self.title isEqualToString:@"绘制文字"]){
+        drawView = [[TextView alloc]init];
     }
     
     

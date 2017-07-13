@@ -24,6 +24,7 @@
 		34B91E041F1621B7009A5F2D /* FanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91E031F1621B7009A5F2D /* FanView.m */; };
 		34BB73781F1704CF008B7F12 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB73771F1704CF008B7F12 /* CurveView.m */; };
 		34BB737B1F1707C5008B7F12 /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB737A1F1707C5008B7F12 /* EffectView.m */; };
+		34BB737E1F170A44008B7F12 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB737D1F170A44008B7F12 /* TextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		34BB73771F1704CF008B7F12 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
 		34BB73791F1707C5008B7F12 /* EffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
 		34BB737A1F1707C5008B7F12 /* EffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
+		34BB737C1F170A44008B7F12 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		34BB737D1F170A44008B7F12 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +202,8 @@
 				34BB73771F1704CF008B7F12 /* CurveView.m */,
 				34BB73791F1707C5008B7F12 /* EffectView.h */,
 				34BB737A1F1707C5008B7F12 /* EffectView.m */,
+				34BB737C1F170A44008B7F12 /* TextView.h */,
+				34BB737D1F170A44008B7F12 /* TextView.m */,
 			);
 			path = "CoreGraphics(Quartz2d绘图)";
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				34B91DF81F1608D1009A5F2D /* LineView.m in Sources */,
 				34B91DE61F15D0EE009A5F2D /* TableViewController.m in Sources */,
 				34B91E041F1621B7009A5F2D /* FanView.m in Sources */,
+				34BB737E1F170A44008B7F12 /* TextView.m in Sources */,
 				34B91DF21F16080A009A5F2D /* BesizerViewController.m in Sources */,
 				34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */,
 				34B91DB31F15CFB1009A5F2D /* main.m in Sources */,
