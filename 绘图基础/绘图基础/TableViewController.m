@@ -9,6 +9,8 @@
 #import "TableViewController.h"
 #import "Quartz2dViewController.h"
 #import "BesizerViewController.h"
+#import "BeziserPolygonController.h"
+#import "BesizerCurveController.h"
 @interface TableViewController ()
 @property (nonatomic,strong) NSArray *dataList;
 @end
@@ -19,7 +21,7 @@
     [super viewDidLoad];
   
     NSArray *quartzList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线",@"画特效",@"绘制文字",@"绘制图片",@"变换运用"];
-    NSArray *besizerList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线"];
+    NSArray *besizerList = @[@"画多边形（view）",@"画多边形（controller）",@"画曲线（view）",@"画曲线（controller）"];
     _dataList = @[quartzList,besizerList];
 }
 
@@ -64,9 +66,17 @@
     if (indexPath.section == 0) {
        vc = [[Quartz2dViewController alloc]init];
     }else{
-        vc = [[BesizerViewController alloc]init];
+        
+        if ((indexPath.row) % 2 == 0) {
+            vc = [[BesizerViewController alloc]init];
+        }else if (indexPath.row == 1){
+            vc = [[BeziserPolygonController alloc]init];
+        }else if (indexPath.row == 3){
+            vc = [[BesizerCurveController alloc]init];
+        }
+        
     }
-    
+    vc.view.backgroundColor = [UIColor whiteColor];
     vc.title = _dataList[indexPath.section][indexPath.row];
     [self.navigationController pushViewController:vc animated:YES];
 }

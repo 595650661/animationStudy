@@ -7,7 +7,8 @@
 //
 
 #import "BesizerViewController.h"
-
+#import "BesizerPolygonView.h"
+#import "BezierCurveView.h"
 @interface BesizerViewController ()
 
 @end
@@ -18,6 +19,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIView *drawView;
+    
+    if ([self.title isEqualToString:@"画多边形（view）"]) {
+        drawView = [[BesizerPolygonView alloc]init];
+    }else if ([self.title isEqualToString:@"画曲线（view）"]){
+        drawView = [[BezierCurveView alloc]init];
+    }
+    
+    
+    
+    drawView.frame = self.view.bounds;
+    drawView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:drawView];
+    
+    [drawView setNeedsDisplay];
+    
+
+ 
+    
 }
 
 
