@@ -13,6 +13,7 @@
 #import "CircularView.h"
 #import "FanView.h"
 #import "CurveView.h"
+#import "EffectView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -37,6 +38,8 @@
         drawView = [[FanView alloc]init];
     }else if ([self.title isEqualToString:@"画曲线"]){
         drawView = [[CurveView alloc]init];
+    }else if ([self.title isEqualToString:@"画特效"]){
+        drawView = [[EffectView alloc]init];
     }
     
     
