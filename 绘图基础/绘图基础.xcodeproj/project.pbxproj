@@ -22,6 +22,7 @@
 		34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91DFD1F161B9B009A5F2D /* RectView.m */; };
 		34B91E011F161F57009A5F2D /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91E001F161F57009A5F2D /* CircularView.m */; };
 		34B91E041F1621B7009A5F2D /* FanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B91E031F1621B7009A5F2D /* FanView.m */; };
+		34BB73781F1704CF008B7F12 /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB73771F1704CF008B7F12 /* CurveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		34B91E001F161F57009A5F2D /* CircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularView.m; sourceTree = "<group>"; };
 		34B91E021F1621B7009A5F2D /* FanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanView.h; sourceTree = "<group>"; };
 		34B91E031F1621B7009A5F2D /* FanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanView.m; sourceTree = "<group>"; };
+		34BB73761F1704CF008B7F12 /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		34BB73771F1704CF008B7F12 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 				34B91E001F161F57009A5F2D /* CircularView.m */,
 				34B91E021F1621B7009A5F2D /* FanView.h */,
 				34B91E031F1621B7009A5F2D /* FanView.m */,
+				34BB73761F1704CF008B7F12 /* CurveView.h */,
+				34BB73771F1704CF008B7F12 /* CurveView.m */,
 			);
 			path = "CoreGraphics(Quartz2d绘图)";
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34BB73781F1704CF008B7F12 /* CurveView.m in Sources */,
 				34B91E011F161F57009A5F2D /* CircularView.m in Sources */,
 				34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */,
 				34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */,
@@ -569,6 +575,7 @@
 				34B91DDD1F15CFB1009A5F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B91DDE1F15CFB1009A5F2D /* Build configuration list for PBXNativeTarget "绘图基础Tests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +584,7 @@
 				34B91DE01F15CFB1009A5F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34B91DE11F15CFB1009A5F2D /* Build configuration list for PBXNativeTarget "绘图基础UITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +593,7 @@
 				34B91DE31F15CFB1009A5F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
