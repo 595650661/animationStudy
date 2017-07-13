@@ -16,6 +16,7 @@
 #import "EffectView.h"
 #import "TextView.h"
 #import "QuartzImageView.h"
+#import "DFLTransformationView.h"
 @interface Quartz2dViewController ()
 
 @end
@@ -46,7 +47,10 @@
         drawView = [[TextView alloc]init];
     }else if ([self.title isEqualToString:@"绘制图片"]){
         drawView = [[QuartzImageView alloc]init];
+    }else if ([self.title isEqualToString:@"变换运用"]){
+        drawView = [[DFLTransformationView alloc]init];
     }
+
     
     
     drawView.frame = self.view.bounds;
