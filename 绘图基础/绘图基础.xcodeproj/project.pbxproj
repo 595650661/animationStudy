@@ -30,6 +30,8 @@
 		34BB73911F17559D008B7F12 /* BesizerPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB73901F17559D008B7F12 /* BesizerPolygonView.m */; };
 		34BB73941F175C57008B7F12 /* BeziserPolygonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB73931F175C57008B7F12 /* BeziserPolygonController.m */; };
 		34BB739A1F175E44008B7F12 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BB73991F175E44008B7F12 /* BezierCurveView.m */; };
+		34DA09641F184DC6003FAC7B /* CGMutablePathRefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DA09631F184DC6003FAC7B /* CGMutablePathRefController.m */; };
+		34DA09671F184E0A003FAC7B /* CGMutablePathRefView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DA09661F184E0A003FAC7B /* CGMutablePathRefView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,10 @@
 		34BB73931F175C57008B7F12 /* BeziserPolygonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeziserPolygonController.m; sourceTree = "<group>"; };
 		34BB73981F175E44008B7F12 /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
 		34BB73991F175E44008B7F12 /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		34DA09621F184DC6003FAC7B /* CGMutablePathRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMutablePathRefController.h; sourceTree = "<group>"; };
+		34DA09631F184DC6003FAC7B /* CGMutablePathRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMutablePathRefController.m; sourceTree = "<group>"; };
+		34DA09651F184E0A003FAC7B /* CGMutablePathRefView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMutablePathRefView.h; sourceTree = "<group>"; };
+		34DA09661F184E0A003FAC7B /* CGMutablePathRefView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMutablePathRefView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,7 @@
 				34B91DE51F15D0EE009A5F2D /* TableViewController.m */,
 				34B91DE81F15F69E009A5F2D /* CoreGraphics(Quartz2d绘图) */,
 				34B91DE71F15D263009A5F2D /* 贝塞尔曲线学习 */,
+				34DA09611F184DA3003FAC7B /* CGMutablePathRef */,
 				34B91DBA1F15CFB1009A5F2D /* Main.storyboard */,
 				34B91DBD1F15CFB1009A5F2D /* Assets.xcassets */,
 				34B91DBF1F15CFB1009A5F2D /* LaunchScreen.storyboard */,
@@ -233,6 +240,17 @@
 				34BB738C1F171E11008B7F12 /* DFLTransformationView.m */,
 			);
 			path = "CoreGraphics(Quartz2d绘图)";
+			sourceTree = "<group>";
+		};
+		34DA09611F184DA3003FAC7B /* CGMutablePathRef */ = {
+			isa = PBXGroup;
+			children = (
+				34DA09621F184DC6003FAC7B /* CGMutablePathRefController.h */,
+				34DA09631F184DC6003FAC7B /* CGMutablePathRefController.m */,
+				34DA09651F184E0A003FAC7B /* CGMutablePathRefView.h */,
+				34DA09661F184E0A003FAC7B /* CGMutablePathRefView.m */,
+			);
+			path = CGMutablePathRef;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +390,7 @@
 				34B91E011F161F57009A5F2D /* CircularView.m in Sources */,
 				34B91DFB1F1616C8009A5F2D /* TriangleView.m in Sources */,
 				34BB737B1F1707C5008B7F12 /* EffectView.m in Sources */,
+				34DA09641F184DC6003FAC7B /* CGMutablePathRefController.m in Sources */,
 				34B91DF51F1608A4009A5F2D /* Quartz2dViewController.m in Sources */,
 				34B91DB61F15CFB1009A5F2D /* AppDelegate.m in Sources */,
 				34BB73911F17559D008B7F12 /* BesizerPolygonView.m in Sources */,
@@ -385,6 +404,7 @@
 				34BB73841F170CB7008B7F12 /* QuartzImageView.m in Sources */,
 				34BB738D1F171E11008B7F12 /* DFLTransformationView.m in Sources */,
 				34B91DFE1F161B9B009A5F2D /* RectView.m in Sources */,
+				34DA09671F184E0A003FAC7B /* CGMutablePathRefView.m in Sources */,
 				34B91DB31F15CFB1009A5F2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

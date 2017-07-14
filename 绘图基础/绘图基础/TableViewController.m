@@ -10,7 +10,7 @@
 #import "Quartz2dViewController.h"
 #import "BesizerViewController.h"
 #import "BeziserPolygonController.h"
-
+#import "CGMutablePathRefController.h"
 @interface TableViewController ()
 @property (nonatomic,strong) NSArray *dataList;
 @end
@@ -22,7 +22,8 @@
   
     NSArray *quartzList = @[@"画线段",@"画三角形",@"画矩形",@"画圆",@"画扇形",@"画曲线",@"画特效",@"绘制文字",@"绘制图片",@"变换运用"];
     NSArray *besizerList = @[@"画多边形（view）",@"画多边形（controller）",@"画曲线"];
-    _dataList = @[quartzList,besizerList];
+    NSArray *PathRef = @[@"曲线学习"];
+    _dataList = @[quartzList,besizerList,PathRef];
 }
 
 
@@ -55,8 +56,10 @@
 {
     if (section == 0) {
         return @"CoreGraphics(Quartz2d绘图)";
-    }else{
+    }else if(section == 1){
        return @"贝塞尔曲线学习";
+    }else{
+        return @"CGMutablePathRef曲线学习";
     }
     
 }
@@ -68,19 +71,24 @@
         Quartz2dVC.title = _dataList[indexPath.section][indexPath.row];
         [Quartz2dVC createDrawView];
         [self.navigationController pushViewController:Quartz2dVC animated:YES];
-    }else{
+    }else if (indexPath.section == 1){
         if (indexPath.row == 1) {
            BeziserPolygonController* vc = [[BeziserPolygonController alloc]init];
             vc.title = _dataList[indexPath.section][indexPath.row];
             [vc createDrawView];
             [self.navigationController pushViewController:vc animated:YES];
         }else{
-         BesizerViewController* vc = [[BesizerViewController alloc]init];
+          BesizerViewController* vc = [[BesizerViewController alloc]init];
             vc.title = _dataList[indexPath.section][indexPath.row];
             [vc createDrawView];
             [self.navigationController pushViewController:vc animated:YES];
         }
   
+    }else{
+        CGMutablePathRefController *vc = [[CGMutablePathRefController alloc]init];
+        vc.title = _dataList[indexPath.section][indexPath.row];
+        [vc createDrawView];
+        [self.navigationController pushViewController:vc animated:YES];
     }
     
     
